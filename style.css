@@ -32,3 +32,8 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }
+
+.divisoria {
+    width: 100%;
+    height: 50px;
+}
