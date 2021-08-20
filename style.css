@@ -66,7 +66,6 @@ nav a {
     -webkit-transition: left 2s;
     -moz-transition: left 2s;
     -o-transition: left 2s;
-    background: linear-gradient(45deg, white, #f3ecec);
 }
 
 .slider-image {
@@ -88,18 +87,30 @@ nav a {
     background: white;
 }
 
-#slider-image-1:target ~ .image-container, #slider-image-1a:target ~ .image-container {
+#slider-image-1:target ~ .image-container, #slider-image-1a:target ~ .image-container, #slider-image-1b:target ~ .image-container, #slider-image-1c:target ~ .image-container {
     left: 0px;
 }
 
-#slider-image-2:target ~ .image-container, #slider-image-2a:target ~ .image-container {
+#slider-image-2:target ~ .image-container, #slider-image-2a:target ~ .image-container, #slider-image-2b:target ~ .image-container, #slider-image-2c:target ~ .image-container {
     left: -1662px;
 }
 
-#slider-image-3:target ~ .image-container, #slider-image-3a:target ~ .image-container {
+#slider-image-3:target ~ .image-container, #slider-image-3a:target ~ .image-container, #slider-image-3b:target ~ .image-container, #slider-image-3c:target ~ .image-container {
     left: -3324px;
 }
 
-#slider-image-4:target ~ .image-container, #slider-image-4a:target ~ .image-container {
+#slider-image-4:target ~ .image-container, #slider-image-4a:target ~ .image-container, #slider-image-4b:target ~ .image-container, #slider-image-4c:target ~ .image-container {
     left: -4986px;
+}
+
+footer {
+    text-align: center;
+    background: radial-gradient(white, #f3ecec);
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #b4a198;
+    font-size: 12px;
+    margin: 20px 0 0;
 }
