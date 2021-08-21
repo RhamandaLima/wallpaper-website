@@ -1,5 +1,7 @@
+/*CSS geral*/
+
 body {
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 header {
@@ -42,15 +44,7 @@ nav a:hover {
     height: 50px;
 }
 
-.slide-container {
-    width: 1662px;
-    height: 934px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    text-align: center;
-    border: #b4a198;
-}
+/*CSS da página inicial*/
 
 .principal {
     padding: 0 0 10px 0;
@@ -59,8 +53,7 @@ nav a:hover {
     margin: 0 auto; 
     text-align: center;
     font-size: 18px;
-    color: #ADA5A1;
-    
+    color: #9D928D;
 }
 
 .principal p {
@@ -131,6 +124,35 @@ nav a:hover {
     opacity: 0.3;
 }
 
+/*CSS da página de Wallpapers*/
+
+.slider {
+    background: #f3ecec;
+}
+
+.tema-slider {
+    padding: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #9D928D;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    background: #f3ecec;    
+}
+
+.slide-container {
+    width: 1662px;
+    height: 934px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+    border: #b4a198;
+    background: yellow; 
+    background-size: 100%;
+}
+
 .image-container {
     width: 6648px;
     height: 934px;
@@ -175,6 +197,8 @@ nav a:hover {
 #slider-image-4:target ~ .image-container, #slider-image-4a:target ~ .image-container, #slider-image-4b:target ~ .image-container, #slider-image-4c:target ~ .image-container {
     left: -4986px;
 }
+
+/*continuação do CSS geral*/
 
 footer {
     text-align: center;
