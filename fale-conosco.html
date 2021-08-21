@@ -37,49 +37,51 @@
                 </div>
 
                 <div>
-                    <form>
-                        <label for="nome-sobrenome">Nome e sobrenome:</label>
-                        <input type="text" id="nome-sobrenome" class="input-padrao" required>
-
-                        <label for="email">E-mail:</label>
-                        <input type="text" id="email" class="input-padrao" required placeholder="seuemail@domínicio.com">
-
-                        <label for="telefone">Telefone:</label>
-                        <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
-
-                        <label for="assunto">Assunto:</label>
-                        <select multiple name="assunto" required>
-                            <option value selected disabled>Selecione uma opção</option> 
-                            <option value="duvida">Dúvida</option>
-                            <option value="elogio">Elogio</option>
-                            <option value="sugestao">Sugestão</option>
-                            <option value="reclamacao">Reclamação</option>
-                        </select>
-
-                        <label for="mensagem">Mensagem:</label>
-                        <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
-                       
-                       <fieldset>
-                            <legend> Como prefere o nosso contato? </legend>
-                            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> E-mail:</label>
-                            
-                            <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone:</label>
-                            
-                            <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp:</label>
-                        </fieldset>
-        
-                        <fieldset>
-                            <legend>Qual o horário prefere ser atendido?</legend>
-                            <select>
-                                <option>Manhã</option>
-                                <option>Tarde</option>
-                                <option>Noite</option>
+                    <form id="caixa-formulario">
+                        <div class="form">
+                            <label for="nome-sobrenome">Nome e sobrenome:</label>
+                            <input type="text" id="nome-sobrenome" class="input-padrao" required>
+    
+                            <label for="email">E-mail:</label>
+                            <input type="text" id="email" class="input-padrao" required placeholder="seuemail@domínio.com">
+    
+                            <label for="telefone">Telefone:</label>
+                            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+    
+                            <label for="assunto">Assunto:</label>
+                            <select required>
+                                <option value selected disabled>Selecione uma opção</option> 
+                                <option>Dúvida</option>
+                                <option>Elogio</option>
+                                <option>Sugestão</option>
+                                <option>Reclamação</option>
                             </select>
-                        </fieldset>
-
-                        <label class = "checkbox"><input type = "checkbox" required checked>Você concorda com a nossa Política de Privacidade.</label>
-
-                        <input type = "submit" value = "Enviar formulário" class = "enviar">
+    
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+                           
+                           <fieldset>
+                                <legend> Como prefere o nosso contato? </legend>
+                                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> E-mail:</label>
+                                
+                                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone:</label>
+                                
+                                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp:</label>
+                            </fieldset>
+            
+                            <fieldset>
+                                <legend>Qual o horário prefere ser atendido?</legend>
+                                <select>
+                                    <option>Manhã</option>
+                                    <option>Tarde</option>
+                                    <option>Noite</option>
+                                </select>
+                            </fieldset>
+    
+                            <label class = "checkbox"><input type = "checkbox" required checked>Você concorda com a nossa Política de Privacidade.</label>
+    
+                            <input type = "submit" value = "Enviar formulário" class = "enviar">
+                        </div>
                     </form>
                 </div>
             </section>
