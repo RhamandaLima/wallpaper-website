@@ -4,8 +4,7 @@ body {
 
 header {
     padding: 20px 0;
-    background: rgb(243, 236, 236);
-    padding: 20px 0;
+    background: radial-gradient(white, #f3ecec);
 }
 
 .cabecalho {
@@ -27,10 +26,15 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #b4a198;
+    color: #9D928D;
     font-weight: bold;
     font-size: 25px;
     text-decoration: none;
+}
+
+nav a:hover {
+    color: #000000;
+    text-decoration: underline;
 }
 
 .divisoria {
@@ -45,17 +49,86 @@ nav a {
     margin-right: auto;
     overflow: hidden;
     text-align: center;
+    border: #b4a198;
+}
+
+.principal {
+    padding: 0 0 10px 0;
+    background: #f3ecec;
+    width: 100%;
+    margin: 0 auto; 
+    text-align: center;
+    font-size: 18px;
+    color: #ADA5A1;
+    
+}
+
+.principal p {
+    padding: 2em;
 }
 
 .tema {
     padding: 22px;
     text-align: center;
     text-transform: uppercase;
-    color: #b4a198;
+    color: #9D928D;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
-    background: radial-gradient(white, #f3ecec);
+    background: #f3ecec;
+}
+
+.temas-abordados {
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    background: linear-gradient(#f3ecec, white, #f3ecec);
+}
+
+.temas-abordados li {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 10px 2%;
+    padding: 25px 20px;
+    box-sizing: border-box;
+    border: 2px solid #aca4a4;
+    border-radius: 10px;
+}
+
+.temas-abordados li:hover {
+    border-color: #000000;
+}
+
+.temas-abordados li:active {
+    border-color: #b3a65e;
+}
+
+.temas-abordados li:hover h2 {
+    font-size: 23px;
+}
+
+.temas-abordados h2 {
+    font-size: 20px; 
+    padding: 30px;
+    font-weight: bold;
+    color: #9D928D;
+}
+
+.tema-apresentacao {
+    font-size: 18px;
+    padding: 30px;
+    color: #9D928D;
+}
+
+.imagem-temas {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.imagem-temas:hover {
+    opacity: 0.3;
 }
 
 .image-container {
