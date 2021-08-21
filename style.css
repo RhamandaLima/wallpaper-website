@@ -204,7 +204,7 @@ nav a:hover {
     background: linear-gradient(#f3ecec, white, #f3ecec);
 }
 
-.titulo-principal{
+.titulo-principal {
     padding: 22px;
     text-align: center;
     text-transform: uppercase;
@@ -212,8 +212,16 @@ nav a:hover {
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+
 }
 
+.titulo-principal p {
+    padding: 22px;
+    font-weight: normal;
+    text-transform: none;
+    color: #9D928D;
+    font-size: 18px;
+}
 
 /*continuação do CSS geral*/
 
