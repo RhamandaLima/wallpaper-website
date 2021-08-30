@@ -337,6 +337,26 @@ select {
     transform: scale(1.2);
 }
 
+@media screen and (max-width: 480px){
+    
+    #caixa-formulario {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    .form {
+        width: 100%;
+        text-align: center;
+    }
+
+    .input-padrao {
+        padding: 9px 0 5px 10px;
+        margin: 0 0 10px;
+        width: 96.5%;
+    }
+}
+
 /*continuação do CSS geral*/
 
 footer {
