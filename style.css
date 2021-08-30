@@ -139,7 +139,7 @@ nav a:hover {
         margin: 10px 2%;
     }
     nav a {
-       font-size: 22px;
+       font-size: 18.4px;
     }
 
     .temas-abordados {
@@ -225,6 +225,26 @@ nav a:hover {
 
 #slider-image-4:target ~ .image-container, #slider-image-4a:target ~ .image-container, #slider-image-4b:target ~ .image-container, #slider-image-4c:target ~ .image-container {
     left: -4986px;
+}
+
+@media screen and (max-width: 480px){
+    
+    .slide-container {
+        width: 90%;
+        text-align: center;
+    }
+
+    .image-container {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        position: relative;
+    }
+
+    .button-container {
+        top: -40px;
+        position: relative;
+    }
 }
 
 /* CSS do fale-conosco.html*/
